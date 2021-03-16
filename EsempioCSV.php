@@ -1,0 +1,32 @@
+<?php
+$filename="EsempioFileParentele.csv";
+header ("Content-Type: application/vnd.ms-excel");
+header ("Content-Disposition: inline; filename=$filename");
+echo("IS,INTESTATARIO SCHEDA,1,1,E,
+NO,NONNO/A,7,8,E,
+NP,NIPOTE,4,5,E,
+CG,CUGINO/A,12,6,E,
+CO,COGNATO/A,18,7,E,
+GE,GENERO,16,7,M,
+NU,NUORA,16,7,F,
+SU,SUOCERO/A,17,8,E,
+ZI,ZIO,11,6,M,
+ZA,ZIA,11,6,F,
+CC,CAPO CONVIV.,23,9,E,
+MR,MARITO,2,2,M,
+CV,CONVIVENTE,23,9,E,
+MT,MATRIGNA,15,8,F,
+AL,ALTRO,22,9,E,
+PR,PRONIPOTE,5,8,E,
+MG,MOGLIE,2,2,F,
+PT,PATRIGNO,15,8,M,
+FG,FIGLIO/A,3,3,E,
+FS,FIGLIASTRO/A,14,5,E,
+PD,PADRE,6,4,M,
+MD,MADRE,6,4,F,
+FT,FRATELLO,9,4,M,
+SR,SORELLA,9,4,F,
+XX,SCONOSCIUTO,22,9,E,
+X,NON DISPONIB.,22,9,E,
+U,UNITO CIVILMENTE,22,2,E,");
+?>
